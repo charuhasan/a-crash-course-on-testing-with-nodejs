@@ -8,7 +8,7 @@
   },
   "scripts": {
     "coverage": "nyc mocha --timeout=3000",
-    "test": "nyc mochamocha"
+    "test": "nyc mocha"
   },
   "author": "",
   "license": "ISC",
