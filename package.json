@@ -7,7 +7,6 @@
     "test": "test"
   },
   "scripts": {
-    "scripts": {
     "test": "jest --coverage --coverageDirectory=output/coverage/jest"
   },
   "jest": {
