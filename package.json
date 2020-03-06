@@ -7,8 +7,14 @@
     "test": "test"
   },
   "scripts": {
-    "coverage": "istanbul cover _mocha -- --compilers js:babel/register",
-    "test": "nyc mocha"
+    "scripts": {
+    "test": "jest --coverage --coverageDirectory=output/coverage/jest"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text",
+      "cobertura"
+    ]
   },
   "author": "",
   "license": "ISC",
